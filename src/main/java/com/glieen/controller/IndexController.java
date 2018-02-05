@@ -16,4 +16,9 @@ public class IndexController {
     public String index() {
         return "Hello World!";
     }
+
+    @GetMapping("/hello")
+    public String hello(){
+        return "Hello";
+    }
 }
